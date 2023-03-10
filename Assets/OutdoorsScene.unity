@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2160.6611, g: 2264.9023, b: 3303.664, a: 1}
+  m_IndirectSpecularColor: {r: 2160.8467, g: 2265.0957, b: 3303.6992, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -359,8 +359,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74887267}
-  m_LocalRotation: {x: 0.24878117, y: 0, z: 0, w: 0.96855974}
-  m_LocalPosition: {x: 0, y: 3.5091603, z: -2.38}
+  m_LocalRotation: {x: 0.45758164, y: 0, z: 0, w: 0.88916767}
+  m_LocalPosition: {x: 0, y: 5.2091603, z: -2.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -674,7 +674,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e62c90be67fa4b444b28cbb5b320b6f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -839,8 +839,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921057199}
-  m_LocalRotation: {x: 0.24878117, y: 0, z: 0, w: 0.96855974}
-  m_LocalPosition: {x: 0, y: 3.5091603, z: -2.38}
+  m_LocalRotation: {x: 0.45758164, y: 0, z: 0, w: 0.88916767}
+  m_LocalPosition: {x: 0, y: 5.2091603, z: -2.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -965,7 +965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damping: {x: 0.1, y: 0.5, z: 0.3}
-  ShoulderOffset: {x: 0.5, y: 0.7, z: 0}
+  ShoulderOffset: {x: 0.5, y: 2.4, z: 0}
   VerticalArmLength: 0.4
   CameraSide: 0.5
   CameraDistance: 2
