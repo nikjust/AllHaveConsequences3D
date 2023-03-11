@@ -34,7 +34,7 @@ public class enemyAnimator : MonoBehaviour
             animator.SetBool("flying", false);
         }
 
-        if (enemy.Health <= 0)
+        if (enemy.health <= 0)
         {
             animator.SetBool("dead", true);
             rb.isKinematic = true;

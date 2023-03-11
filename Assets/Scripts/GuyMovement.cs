@@ -101,12 +101,10 @@ public class GuyMovement : MonoBehaviour
         
         if (Input.GetKey(KeyCode.D))
         {
-            Debug.Log("Key E");
             pTransform.RotateAround(pTransform.position, Vector3.up, 1);
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("Key Q");
             pTransform.RotateAround(pTransform.position, Vector3.up, -1);
         }
         

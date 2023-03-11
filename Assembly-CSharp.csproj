@@ -49,6 +49,23 @@
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\DamageDealer.cs" />
      <Compile Include="Assets\Scripts\enemyAnimator.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
+     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:/UNITYeditor/2021.2.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

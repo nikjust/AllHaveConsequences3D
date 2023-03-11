@@ -26,7 +26,7 @@ public class Armor : Item
 {
     public int protection;
     [HideInInspector]
-    public int itemType = 1;
+    public new int itemType = 1;
 
     public Armor(string title, string description, Sprite texture, int protection) : base(title, description, texture)
     {
@@ -39,7 +39,7 @@ public class Weapon : Item
 {
     public int damage;
     [HideInInspector]
-    public int itemType = 2;
+    public new int itemType = 2;
 
     public Weapon(string title, string description, Sprite texture, int damage) : base(title, description, texture)
     {

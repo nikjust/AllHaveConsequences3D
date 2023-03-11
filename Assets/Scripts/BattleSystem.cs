@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class BattleSystem : MonoBehaviour
     public Inventory player;
 
     public SpriteRenderer playerRenderer;
+    public Slider healthBar;
+    
+    public float hp = 100;
+    public float maxHp = 100;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +31,14 @@ public class BattleSystem : MonoBehaviour
             playerRenderer.enabled = true;
             WeaponAnimator.SetTrigger("swing");
         }
+
+        healthBar.value = hp / maxHp;
+    }
+
+
+
+    public void dealDamage(float damage)
+    {
+        hp -= damage;
     }
 }
