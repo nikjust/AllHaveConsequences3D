@@ -7,6 +7,7 @@ public class BattleSystem : MonoBehaviour
 {
     public Animator WeaponAnimator;
     public GameObject WeaponGameobject;
+    public GameObject DeathCanvas;
 
     public Inventory player;
 
@@ -40,5 +41,10 @@ public class BattleSystem : MonoBehaviour
     public void dealDamage(float damage)
     {
         hp -= damage;
+
+        if (hp <= 0)
+        {
+            DeathCanvas.SetActive(true);
+        }
     }
 }

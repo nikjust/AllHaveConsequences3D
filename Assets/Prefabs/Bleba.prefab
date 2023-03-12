@@ -105,7 +105,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!136 &894860924633005305
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -171,7 +171,8 @@ MonoBehaviour:
   defense: 0
   damage: 5
   attackDistance: 2
-  viewDistance: 5
+  viewDistance: 15
+  _navMesh: {fileID: 894860924633005283}
   cooldown: 5
   TargetTag: Player
   stuned: 1
@@ -182,7 +183,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894860924633005306}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 1
   m_Speed: 3.5

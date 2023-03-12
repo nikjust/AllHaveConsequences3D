@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     public float viewDistance;
     [HideInInspector]
     private Transform _target;
-    [HideInInspector]
+    [SerializeField]
     private NavMeshAgent _navMesh;
     
     [SerializeField]
@@ -34,7 +34,6 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         _target = GameObject.FindGameObjectWithTag(TargetTag).transform;
-        _navMesh = gameObject.GetComponent<NavMeshAgent>();
     }
 
     private void Update()
@@ -46,7 +45,6 @@ public class Enemy : MonoBehaviour
         }
 
         var distance = Vector3.Distance(transform.position, _target.position);
-        Debug.Log(distance);
         if (distance < viewDistance && health > 0)
         {
             _navMesh.destination = _target.position;
